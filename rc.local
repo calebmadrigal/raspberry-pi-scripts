@@ -1,0 +1,4 @@
+#!/bin/sh -e
+# Start Python script on bootup
+/usr/bin/python /home/pi/rpi-home-automation/web_controller.py > /dev/null 2>&1
+exit 0
